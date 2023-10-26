@@ -145,7 +145,7 @@
     width: 70%;
   }
   .container-4 #cards #card {
-    height: 600px;
+    height: 50vhpx;
     width: 350px;
     background: rgba(0, 0, 0, 0.537);
     border-radius: 16px;
