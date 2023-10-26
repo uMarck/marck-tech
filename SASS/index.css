@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;800;900&family=Poppins:wght@100;200;400;600;700&family=Roboto:wght@100;500;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1920px) {
+  ::-moz-selection {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgb(255, 238, 0);
+  }
+  ::selection {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgb(255, 238, 0);
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #5E17EB;
+    width: 100%;
+  }
+  header .logo img {
+    width: 85px;
+  }
+  header .menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    margin: 0 1.5rem 0 1.5rem;
+    padding: 0.5rem 0.2rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background: #5E17EB;
+  }
+  .container #text {
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    margin-right: -400px;
+    color: rgb(255, 255, 255);
+  }
+  .container #text h1 {
+    font-size: 85px;
+  }
+  .container #text p {
+    line-height: 35px;
+  }
+  .container img {
+    width: 500px;
+  }
+  .container-2 {
+    text-align: center;
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    height: 100vh;
+    background: #5E17EB;
+    color: rgb(255, 255, 255);
+  }
+  .container-2 h1 {
+    font-size: 85px;
+    padding-top: 2.5rem;
+  }
+  .container-2 p {
+    line-height: 35px;
+  }
+  .container-2 h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 45px;
+  }
+  .container-2 #cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+  }
+  .container-2 #cards #info {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 30%;
+    transition: 0.5s;
+  }
+  .container-2 #cards #info h3 {
+    margin: 0.5rem;
+  }
+  .container-2 #cards #info img {
+    filter: invert(1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+  .container-2 #cards #info:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(5px 3px 15px black);
+  }
+  .container-3 {
+    background: #5E17EB;
+    height: 100vh;
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .container-3 h1 {
+    font-size: 95px;
+    padding-top: 2rem;
+  }
+  .container-3 p {
+    line-height: 30px;
+  }
+  .container-4 {
+    height: auto;
+    color: white;
+    background-image: url(../IMGs/PACOTES/fundojp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    text-align: center;
+  }
+  .container-4 h1 {
+    font-size: 90px;
+    padding-top: 2rem;
+  }
+  .container-4 p {
+    line-height: 30px;
+  }
+  .container-4 #cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 1.5rem;
+    width: 70%;
+  }
+  .container-4 #cards #card {
+    height: 600px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.537);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 35px;
+  }
+  .container-4 #cards #card img:nth-child(3) {
+    transition: 0.2s;
+  }
+  .container-4 #cards #card img:nth-child(3):hover {
+    transform: translateY(-10px);
+  }
+  .container-4 #cards #card #desc {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .container-4 #cards #card #desc ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-top: 1rem;
+    font-weight: 600;
+  }
+  .container-4 #cards #card #desc ul li img {
+    margin-right: 0.3rem;
+    margin-left: 0;
+  }
+  .container-4 #cards #card a {
+    text-decoration: none;
+  }
+  .container-4 #cards #card a p {
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    font-weight: 900;
+    color: white;
+    padding: 0.5rem;
+    filter: drop-shadow(0px 0px 0px transparent);
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 0.1px solid rgb(255, 255, 255);
+  }
+  .container-4 #cards #card a p:hover {
+    font-size: 20px;
+    background-color: rgb(140, 0, 255);
+    filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.323));
+  }
+  .container-4 .orca a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  .container-4 .orca a p {
+    padding: 1rem 0 1rem 0;
+    width: 35%;
+    margin: auto;
+    border: 1px solid white;
+    font-weight: 500;
+    transition: 0.1s;
+  }
+  .container-4 .orca a p:hover {
+    transform: scale(1.02);
+    background-color: indigo;
+  }
+  footer {
+    background-color: #1f0d44;
+    height: 55vh;
+    text-align: center;
+    font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
+    color: white;
+    padding-top: 10rem;
+    line-height: 30px;
+  }
+  footer p {
+    font-size: 30px;
+  }
+  footer h2 {
+    padding-bottom: 2rem;
+  }
+  footer #sociais a {
+    text-decoration: none;
+    color: white;
+  }
+  footer #sociais a img {
+    margin: 1rem;
+    filter: grayscale(1);
+  }
+  footer #sociais a img:checked {
+    filter: grayscale(0);
+  }
+}
+@media screen and (max-width: 428px) {
+  header .logo img {
+    width: 50px;
+  }
+  header .menu {
+    display: none;
+  }
+  .container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .container #text {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .container img {
+    width: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .container-2 {
+    height: auto;
+  }
+  .container-2 h1 {
+    font-size: 50px;
+    padding-top: 0.5rem;
+  }
+  .container-2 #cards {
+    width: 100%;
+  }
+  .container-2 #cards #info {
+    width: 100%;
+  }
+  .container-3 {
+    height: auto;
+  }
+  .container-3 h1 {
+    font-size: 58px;
+    padding-bottom: 3rem;
+  }
+  .container-3 img {
+    width: 355px;
+    margin-top: 3rem;
+  }
+  .container-4 {
+    height: auto;
+    margin: auto;
+  }
+  .container-4 p {
+    width: 95%;
+    margin: auto;
+  }
+  .container-4 h1 {
+    font-size: 45px;
+    padding-bottom: 1rem;
+  }
+  .container-4 .orca a p {
+    width: 95%;
+  }
+  footer {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container #text {
+    width: 95%;
+  }
+  .container-3 h1 {
+    font-size: 49px;
+  }
+  .container-4 h1 {
+    font-size: 43px;
+  }
+  footer p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container #text h1 {
+    font-size: 45px;
+  }
+  .container #text p {
+    line-height: 25px;
+  }
+  .container img {
+    padding-top: 0.3rem;
+  }
+  .container-2 h1 {
+    font-size: 35px;
+  }
+  .container-2 p {
+    line-height: 35px;
+    font-size: 18px;
+  }
+  .container-3 h1 {
+    font-size: 47px;
+  }
+  .container-4 h1 {
+    font-size: 35px;
+  }
+  footer {
+    height: 100vh;
+  }
+  footer p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=index.css.map */
