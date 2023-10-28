@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background: #5E17EB;
+    background: #5e17eb;
     width: 100%;
   }
   header .logo img {
@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    background: #5E17EB;
+    background: #5e17eb;
   }
   .container #text {
     font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
@@ -58,7 +58,7 @@
     text-align: center;
     font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
     height: 100vh;
-    background: #5E17EB;
+    background: #5e17eb;
     color: rgb(255, 255, 255);
   }
   .container-2 h1 {
@@ -104,7 +104,7 @@
     filter: drop-shadow(5px 3px 15px black);
   }
   .container-3 {
-    background: #5E17EB;
+    background: #5e17eb;
     height: 100vh;
     font-family: "Montserrat", "Poppins", "Roboto", Tahoma, Geneva, Verdana;
     text-align: center;
@@ -265,7 +265,7 @@
     text-align: center;
   }
   .container img {
-    width: 150px;
+    width: 250px;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -312,9 +312,24 @@
     height: 80vh;
   }
 }
+@media screen and (max-width: 390px) {
+  .container #text {
+    width: 90%;
+  }
+  .container img {
+    width: 200px;
+  }
+  .container-2 p {
+    width: 99%;
+    margin: auto;
+  }
+}
 @media screen and (max-width: 375px) {
   .container #text {
     width: 95%;
+  }
+  .container img {
+    width: 155px;
   }
   .container-3 h1 {
     font-size: 49px;
@@ -331,20 +346,33 @@
     font-size: 45px;
   }
   .container #text p {
-    line-height: 25px;
+    line-height: 33.5px;
   }
   .container img {
-    padding-top: 0.3rem;
+    width: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .container-2 h1 {
     font-size: 35px;
   }
   .container-2 p {
-    line-height: 35px;
-    font-size: 18px;
+    line-height: 30.5px;
+    border-image-width: 90%;
+    margin: auto;
+    font-size: 13px;
   }
   .container-3 h1 {
     font-size: 47px;
+    padding-bottom: 0;
+  }
+  .container-3 p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .container-3 img {
+    padding-top: 0;
+    width: 200px;
   }
   .container-4 h1 {
     font-size: 35px;
